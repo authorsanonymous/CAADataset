@@ -1,5 +1,4 @@
-# CAADataset
-Classroom Atmosphere Assessment Dataset（CAA）
+# Classroom Atmosphere Assessment Dataset（CAA）
 
 About the dataset
 Our CAA includes three modes: video, audio, and text, covering 9 subjects.
