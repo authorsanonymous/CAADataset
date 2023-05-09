@@ -1,4 +1,4 @@
-# Classroom Atmosphere Assessment Dataset（CAA）
+# Classroom Atmosphere Assessment Dataset（CAA Dataset）
 
 About the dataset
 Our CAA includes three modes: video, audio, and text, covering 9 subjects.
@@ -8,7 +8,7 @@ Each video contains 4 feature labels and 9 feature data of three modalities. The
                     Audio: XXX_covarep.csv、XXX_ formant.csv
                     Text: XXX_ Transcript.csv
 
-Our dataset contains 246 folders from 101 to 346. Each video is grouped by a folder named Video Number. Among them, 197 were used as training sets and 49 were used as test sets.
+Our dataset contains 246 folders from 101 to 346. Each video is grouped by a folder named Video Number. Among them, 197 were used as training sets and 49 were used as test sets. In addition, we provide a ["101"](https://drive.google.com/drive/folders/1Z_3jdWPaPxg2KNuGlt3dpec2ZZ6poklg?usp=share_link) sample for you to download and view.
 
 
 train_ split. csv: This file contains the video ID, teacher gender, binary label (pass=1; failed=0), classroom atmosphere score, and teaching subjects (including Chinese, Mathematics, English, Physics, Chemistry, History, Geography, Biology, and Politics).
