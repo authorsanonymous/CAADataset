@@ -25,6 +25,7 @@ file：
 （1）1001_aus.txt :
 The facial action unit has the following file format:
 “frame, timestamp, confidence, success, AU01_r, AU02_r, AU04_r, AU05_r, AU06_r, AU09_r, AU10_r, AU12_r, AU14_r, AU15_r, AU17_r, AU20_r, AU25_r, AU26_r, AU04_c, AU12_c, AU15_c, AU23_c, AU28_c, AU45_c”.The value represented by ''r' is the regression output of each action unit, while '_c' reflects the presence (1) or absence (0) of a binary label for an action unit.
+
 paper:RUNNING HEAD:Facial Action Coding System
 https://en.wikipedia.org/wiki/Facial_Action_Coding_System
 
