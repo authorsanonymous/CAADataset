@@ -1,14 +1,14 @@
 # Classroom Atmosphere Assessment Dataset（CAA Dataset）
 
 About the dataset
-Our CAA includes three modes: video, audio, and text, covering 9 subjects.
-The original dataset consists of 246 videos, of which 198 are 20 minute videos and 48 are 13-15 minute videos. All videos have a resolution of 1920 × 1080, with a frame rate of 30fps.
-Each video contains 4 feature labels and 9 feature data of three modalities. The four feature labels are subject, classroom atmosphere score, classroom atmosphere binarization (pass: 1; failed: 0), and regression score level (there are five levels here, namely Excellent: 90-100; Good: 80-89; Medium: 70-79; Poor: 60-69; Failed: 0-59). Nine feature data: 
-                    visual:XXX_feature.txt、XXX_feature3D.txt、XXX_gaze.txt、XXX_pose.txt、XXX_aus.txt、XXX_hog.bin
-                    Audio: XXX_covarep.csv、XXX_ formant.csv
-                    Text: XXX_ Transcript.csv
+Our CAA includes three modes: video, audio, and text, covering 9 high school subjects.
+The original dataset consists of 1500 videos, each of which is approximately ten minutes long. All videos have a resolution of 1920 × 1080, with a frame rate of 30fps.
+Each video contains 4 feature labels and 9 feature data of three modalities. The four feature labels are subject, classroom atmosphere score, classroom atmosphere binarization (pass: 1; fail: 0), and regression score level (there are five levels here, namely Excellent: 90-100; Good: 80-89; Medium: 70-79; Poor: 60-69; Failed: 0-59). Nine feature data: 
+                    visual:XXX_feature.txt、XXX_feature3D.txt、XXX_gaze.txt、                                                                          XXX_pose.txt、XXX_aus.txt、XXX_hog.bin
+                    Audio: XXX_ covarep.csv、XXX_ formant.csv
+                     Text: XXX_ Transcript.csv
 
-Our dataset contains 246 folders from 101 to 346. Each video is grouped by a folder named Video Number. Among them, 197 were used as training sets and 49 were used as test sets. <strong><em>In addition, we provide a ["101"](https://drive.google.com/drive/folders/1Z_3jdWPaPxg2KNuGlt3dpec2ZZ6poklg?usp=share_link) sample for you to download and view.</em></strong> 
+Our dataset contains 1500 folders from 1001 to 2500. Each video is grouped by a folder named Video Number. Among them, 1200 were used as training sets and 300 were used as test sets. <strong><em>In addition, we provide a ["1001"](https://drive.google.com/drive/folders/1Z_3jdWPaPxg2KNuGlt3dpec2ZZ6poklg?usp=share_link) sample for you to download and view.</em></strong> 
 
 
 train_ split. csv: This file contains the video ID, teacher gender, binary label (pass=1; failed=0), classroom atmosphere score, and teaching subjects (including Chinese, Mathematics, English, Physics, Chemistry, History, Geography, Biology, and Politics).
