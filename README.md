@@ -57,7 +57,9 @@ Note that all. txt files contain appropriate titles. Each row represents the res
 All audio formats are mono, with a frequency of 16kHz. Audio files may contain a small amount of noise; Use text transcription files to alleviate.
 
 The audio function is extracted using the COVAREP toolbox located at: https://github.com/covarep/covarep
+
 file:
+
 （1）1001_ Covarep.csv (scrubbed): Extracts the following functions:
 ① All features are sampled at 10 millisecond intervals.
 ②F0, VUV, NAQ, QOQ, H1H2, PSP, MDQ, peakSlope, Rd, Rd_conf, MCEP_0-24、HMPDM_0-24, HMPDD_0-12.
