@@ -8,7 +8,7 @@ Each video contains 4 feature labels and 9 feature data of three modalities. The
                     Audio: XXX_ covarep.csv、XXX_ formant.csv
                      Text: XXX_ Transcript.csv
 
-Our dataset contains 1500 folders from 1001 to 2500. Each video is grouped by a folder named Video Number. Among them, 1200 were used as training sets and 300 were used as test sets. <strong><em>In addition, we provide a ["1001"](https://drive.google.com/drive/folders/1Z_3jdWPaPxg2KNuGlt3dpec2ZZ6poklg?usp=share_link) sample for you to download and view.</em></strong> 
+Our dataset contains 1500 folders from 1001 to 2500. Each video is grouped by a folder named Video Number. Among them, 1200 were used as training sets and 300 were used as test sets. <strong><em>In addition, we provide a ["1001"](https://drive.google.com/drive/folders/1X9AcGqiia9dQT5bJqFR31hMnH1inxxeU?usp=sharing) sample for you to download and view.</em></strong> 
 
 
 train_ split. csv: This file contains the video ID, teacher gender, binary label (pass=1; failed=0), classroom atmosphere score, and teaching subjects (including Chinese, Mathematics, English, Physics, Chemistry, History, Geography, Biology, and Politics).
