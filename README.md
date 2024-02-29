@@ -73,5 +73,6 @@ file:
 1001_Transcript.csv (scrubbed)
 The file includes timestamp and teacher's voice transcript content, removing voice content other than the teacher and cleaning the transcript file to remove some noise.
 
+
 If you use the dataset, please cite this paper:
 CAA: A Multimodal Dataset for Classroom Atmosphere Assessment in Real-world Situations.
